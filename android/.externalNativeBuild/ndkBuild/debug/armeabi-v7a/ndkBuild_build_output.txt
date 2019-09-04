@@ -1,0 +1,9 @@
+rm -f /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/*
+rm -f /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver
+rm -f /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
+mkdir -p /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/armeabi-v7a
+echo [armeabi-v7a] "Gdbserver      ": "[arm-linux-androideabi] /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver"
+install -p /Applications/adt-bundle-mac-x86_64-20140702/sdk/ndk-bundle/prebuilt/android-arm/gdbserver/gdbserver /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver
+echo [armeabi-v7a] "Gdbsetup       ": "/Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup"
+echo "set solib-search-path /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a" > /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
+echo "directory /Applications/adt-bundle-mac-x86_64-20140702/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot /Applications/adt-bundle-mac-x86_64-20140702/sdk/ndk-bundle/sources/cxx-stl/system" >> /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup

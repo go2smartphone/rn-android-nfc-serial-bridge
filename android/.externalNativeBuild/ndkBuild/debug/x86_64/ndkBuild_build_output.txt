@@ -1,0 +1,9 @@
+rm -f /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/x86_64/*
+rm -f /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/x86_64/gdbserver
+rm -f /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/x86_64/gdb.setup
+mkdir -p /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/x86_64
+echo [x86_64] "Gdbserver      ": "[x86_64-linux-android] /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/x86_64/gdbserver"
+install -p /Applications/adt-bundle-mac-x86_64-20140702/sdk/ndk-bundle/prebuilt/android-x86_64/gdbserver/gdbserver /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/x86_64/gdbserver
+echo [x86_64] "Gdbsetup       ": "/Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/x86_64/gdb.setup"
+echo "set solib-search-path /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/obj/local/x86_64" > /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/x86_64/gdb.setup
+echo "directory /Applications/adt-bundle-mac-x86_64-20140702/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot /Applications/adt-bundle-mac-x86_64-20140702/sdk/ndk-bundle/sources/cxx-stl/system" >> /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/debug/lib/x86_64/gdb.setup

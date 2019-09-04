@@ -1,0 +1,11 @@
+{
+  "buildFiles": [
+    "/Users/macbook/projects/test/AndroidNFCCommBridge/android/src/main/jni/Application.mk",
+    "/Users/macbook/projects/test/AndroidNFCCommBridge/android/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [],
+  "libraries": {},
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}

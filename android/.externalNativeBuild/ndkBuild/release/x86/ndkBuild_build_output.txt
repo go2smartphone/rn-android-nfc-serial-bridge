@@ -1,0 +1,3 @@
+rm -f /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/release/lib/x86/*
+rm -f /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/release/lib/x86/gdbserver
+rm -f /Users/macbook/projects/test/AndroidNFCCommBridge/android/build/intermediates/ndkBuild/release/lib/x86/gdb.setup
