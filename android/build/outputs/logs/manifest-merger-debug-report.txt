@@ -1,37 +1,47 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml:2:1-5:12
-INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml:2:1-5:12
-INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml:2:1-5:12
-INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml:2:1-5:12
-INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml:2:1-5:12
-INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml:2:1-5:12
-INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml:2:1-5:12
+ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:2:1-6:12
 	package
-		ADDED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml:3:11-37
-		INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
-		INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:3:11-47
+		INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
-		ADDED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml:2:1-5:12
-		INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:2:1-6:12
+		INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
-		ADDED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml:2:1-5:12
-		INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:2:1-6:12
+		INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.NFC
+ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:4:9-66
+	android:name
+		ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:4:26-63
+uses-feature#android.hardware.nfc
+ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:5:9-86
+	android:required
+		ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:5:59-83
+	android:name
+		ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml:5:23-58
 uses-sdk
-INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
-INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
-INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
-INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
-		ADDED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
-		INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
-		ADDED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
-		INJECTED from /Users/macbook/projects/test/RNSerialPortBridge/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/projects/cheungdokwan/school-attendence/node_modules/rn-android-nfc-serial-bridge/android/src/main/AndroidManifest.xml
